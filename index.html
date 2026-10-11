@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mak Privacy Policy</title>
+<meta name="description" content="How the Mak iOS app handles your information.">
+<style>
+:root{--bg:#F6F1E7;--surface:#FFFDF8;--ink:#1B1712;--muted:#5E574C;--accent:#A8380F;--line:#E4DCCD}
+@media (prefers-color-scheme:dark){:root{--bg:#0D1726;--surface:#1B2A40;--ink:#F2EEE6;--muted:#A9B3C2;--accent:#FF7A3D;--line:#2C3D57}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+header{max-width:760px;margin:0 auto;padding:28px 20px 0;display:flex;justify-content:space-between;align-items:center}
+.brand{font-weight:700;font-size:26px;color:var(--accent);letter-spacing:-0.5px;font-style:italic}
+main{max-width:760px;margin:0 auto;padding:8px 20px 56px}
+h1{font-size:34px;line-height:1.15;margin:18px 0 6px}
+h2{font-size:22px;margin:0 0 10px}
+h3{font-size:18px;margin:18px 0 6px}
+section{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px 20px 8px;margin:18px 0}
+main>p:first-of-type{color:var(--muted)}
+a{color:var(--accent)}
+li{margin:6px 0}
+footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<header><span class="brand">mak</span><span style="color:var(--muted);font-size:14px">Privacy</span></header>
+<main>
+<h1>Privacy Policy</h1>
+      <p>Mak 2.0 · Build 67 and later<br>Effective date: October 10, 2026</p>
+      <p>Mak helps you record workouts and activities. Most app information is stored on your device. Optional Apple services, iCloud backups, exports, and information you choose to share can involve data outside Mak’s local storage.</p>
+
+      <section><h2>1. About this policy</h2>
+        <p>This policy explains how the Mak iOS app handles information, and distinguishes information stored by the app from information the developer receives when you contact them. It describes Mak 2.0, build 67 and later; earlier versions may have handled backups differently.</p>
+        <p>App operator: the Mak developer. Privacy contact: <a href="mailto:drew.makler@gmail.com">drew.makler@gmail.com</a>.</p>
+      </section>
+
+      <section><h2>2. Information stored in Mak</h2>
+        <p>Depending on the features you use, Mak stores:</p>
+        <ul>
+          <li><strong>Profile information:</strong> the name, age, height and profile photo you enter or save, and the weight entries you log</li>
+          <li><strong>Training information:</strong> routines, exercises and variations, sets, repetitions, weights, effort ratings (RPE), and personal records</li>
+          <li><strong>Activity information:</strong> workout and activity history, recorded routes, and unfinished sessions</li>
+          <li><strong>App information:</strong> preferences and feedback you create in the app</li>
+        </ul>
+        <p>Mak uses this information to display your profile, log and restore sessions, show your history and progress, and provide the features you select. It is kept in local app storage, including a local SQLite database and compatibility web storage used by the app.</p>
+        <p>This version of Mak does not have a custom developer-operated server for automatically receiving your workout or profile database.</p>
+      </section>
+
+      <section><h2>3. Optional Apple Health access</h2>
+        <p>Apple Health integration is optional and uses Apple’s HealthKit permission system. If you grant the relevant permissions, Mak can read workouts, body mass, height, date of birth, steps, and walking or running distance. Date of birth is used to derive age. Imported measurements may also be saved in Mak’s local profile or history.</p>
+        <p>With read permission, Mak can show your Apple Health body-weight history on the Profile weight chart. That history is read when you open the chart and isn't saved by Mak.</p>
+        <p>Mak's Home page can show today's step count from Apple Health. It is read when you open Home and isn't saved by Mak.</p>
+        <p>With the relevant write permissions, Mak can save workouts, active energy, walking or running distance and cycling distance to Apple Health. Mak saves a weight entry to Apple Health only when you turn on "Also save to Apple Health" for that entry.</p>
+        <p>Mak uses this information for its health and fitness features. This version of Mak does not use HealthKit information for advertising or cross-app tracking.</p>
+        <p>You can change Mak’s Health permissions in Apple Health or iOS Settings. Revoking access stops future access for the permissions you disable; it does not automatically delete information already imported into Mak, its recovery backups, or information already saved in Apple Health.</p>
+      </section>
+
+      <section><h2>4. Location and profile photos</h2>
+        <h3>Location</h3>
+        <p>If you start a location-based activity and allow location access, Mak records route coordinates, accuracy, and timestamps for that activity. From build 68, recording continues while your screen is locked or you use another app, until you pause or end the activity, and iOS shows its location indicator while it does. Route information can reveal where you have been. Mak uses Apple MapKit to show maps, which uses network services provided by Apple.</p>
+        <p>You can change location permissions in iOS Settings. Disabling access can prevent route recording and does not remove routes already saved.</p>
+        <h3>Camera and photos</h3>
+        <p>You can optionally choose or take a profile photo. Mak re-encodes the selected image as a JPEG and saves it when you explicitly save your profile. It does not automatically upload the photo to the developer. Photo data can be included in recovery backups or exports; iCloud backups may also contain it.</p>
+        <p>You can change camera or photo permissions in iOS Settings.</p>
+      </section>
+
+      <section><h2>5. Backups and exports</h2>
+        <h3>Local recovery backups</h3>
+        <p>Mak creates full local recovery backups to help restore app information. These can include profile, health and fitness information, routes, and unfinished sessions.</p>
+        <h3>Device backups</h3>
+        <p>Mak excludes its own app data from automatic iPhone device backups (iCloud or computer). Keep an exported recovery file if you want a copy outside your phone. Device backups made before this change are unaffected.</p>
+        <h3>iCloud backups</h3>
+        <p>When iCloud Drive is on for Mak, Mak automatically saves backup copies to your private iCloud Drive after changes. These copies include your workouts, routines, routes, weigh-ins you enter in Mak, settings, and profile details such as your name and photo. They never include the age, height, or weight in your profile, because those can come from Apple Health; those stay on your iPhone and in files you export. Mak keeps your recent copies and removes older automatic copies it created. To stop iCloud backups, turn off iCloud Drive for Mak in your iPhone's Settings.</p>
+        <p>Backups created by earlier versions of Mak remain readable, may contain profile and health information, and are not deleted by Mak.</p>
+        <p>Device backups and Apple Health syncing are separate Apple services and depend on your Apple settings. This policy does not describe all of Apple’s handling of those services.</p>
+        <h3>Exports you choose to create</h3>
+        <p>Mak lets you export app information as a JSON file to a destination you select. An export can include raw records and unfinished-session data. The export file is not encrypted by Mak. Its checksum is used to check file integrity; it is not encryption.</p>
+        <p>Review the file and destination before sharing. Anyone with access to the exported file may be able to read its contents. The storage service or recipient you choose handles that copy under their own practices.</p>
+      </section>
+
+      <section><h2>6. Retention and deletion</h2>
+        <p>Mak does not apply a fixed expiration period to local app records. Records and recovery information can remain until removed through available app or device controls.</p>
+        <ul>
+          <li>Deleting a record from the app does not necessarily remove it from older local recovery snapshots, iCloud backups, or files you previously exported</li>
+          <li>Removing the app does not delete existing iCloud backups, exported files, or information already saved in Apple Health</li>
+          <li>Copies held in Apple services or destinations you selected must be managed separately using the applicable service’s controls</li>
+        </ul>
+        <p>To revoke optional access, change Mak’s Health, location, camera, or photo permissions in the relevant Apple settings. To ask about information you have sent directly to the developer, use the privacy contact below. The developer cannot remove copies that only you or another service control.</p>
+      </section>
+
+      <section><h2>7. External services and diagnostics</h2>
+        <h3>Advertising and analytics</h3>
+        <p>This version of Mak contains no advertising, tracking, or third-party analytics-upload SDK. It does not automatically send workout or profile records to a developer analytics service.</p>
+        <h3>Apple services</h3>
+        <p>Mak uses Apple services for optional Health integration, maps, and voluntary support purchases. Apple StoreKit handles purchase and payment processing; Mak does not collect your full payment-card details. Apple’s own privacy practices apply to its services.</p>
+        <p>System diagnostic logs exist. Depending on your device’s analytics and crash-sharing settings, Apple may receive or share diagnostic information under its own settings and policies.</p>
+        <h3>Exercise tutorials and sharing</h3>
+        <p>When you open an exercise tutorial, Mak opens a YouTube search using the exercise name. YouTube and your browser may process that search and your interaction under their own policies. When you share or export information, the app or destination you choose receives the information you select.</p>
+        <p>Read <a href="https://www.apple.com/legal/privacy/">Apple’s Privacy Policy</a> and <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a> for their services.</p>
+      </section>
+
+      <section><h2>8. Feedback and contacting the developer</h2>
+        <p>Feedback created in Mak stays local until you choose to share or copy it, or contact the developer. If you send a support message, the recipient receives your message, the contact information your chosen communication service includes, and any attachments or app data you choose to send.</p>
+        <p>Avoid sending health information, route history, photos, or a full export unless you intend to share that information and it is needed for your request.</p>
+        <p>If you email <a href="mailto:drew.makler@gmail.com">drew.makler@gmail.com</a>, your message and any attachments are handled in Gmail. The Mak developer uses them to respond to your request and troubleshoot the app. Messages remain in the mailbox until deleted. You can request deletion by emailing the same address.</p>
+      </section>
+
+      <section><h2>9. Contact and policy changes</h2>
+        <p>For privacy questions or requests relating to information you sent to the developer:</p>
+        <p><a href="mailto:drew.makler@gmail.com">drew.makler@gmail.com</a></p>
+        <p>Beta testers may also see <a href="mailto:asmakler63089@gmail.com">asmakler63089@gmail.com</a> in the app. Both addresses reach the Mak developer, and messages to either are handled as described in section 8.</p>
+        <p>This policy may be updated when Mak’s data handling changes. The effective date at the top identifies the latest policy version.</p>
+      </section>
+      <footer>Mak · Privacy Policy<br><a href="#top">Back to top</a></footer>
+</main>
+<footer>Mak · My Activity Keeper</footer>
+</body>
+</html>
